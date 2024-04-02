@@ -8,6 +8,7 @@ public class RectangleMain {
 
         System.out.println("rect1 = " + rect1);
         System.out.println("rect2 = " + rect2);
+
         System.out.println(rect1 == rect2);
         System.out.println(rect1.equals(rect2));
     }
