@@ -6,6 +6,7 @@ public class RectangleMain {
         Rectangle rect1 = new Rectangle(100, 20);
         Rectangle rect2 = new Rectangle(100, 20);
 
+
         System.out.println("rect1 = " + rect1);
         System.out.println("rect2 = " + rect2);
 
