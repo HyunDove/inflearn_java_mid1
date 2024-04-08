@@ -4,9 +4,6 @@ public class Address {
 
     private String value;
 
-    public Address() {
-    }
-
     public Address(String value) {
         this.value = value;
     }

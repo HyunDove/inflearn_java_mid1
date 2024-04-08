@@ -21,7 +21,7 @@ public class RefMain2 {
         b = new ImmutableAddress("부산");
 
         System.out.println("부산 -> b");
-        System.out.println("a = " + a); // 실행 결과 ➡️ Address{value='부산'} + 사이드 이펙트 발생
+        System.out.println("a = " + a); // 실행 결과 ➡️ Address{value='서울'}
         System.out.println("b = " + b); // 실행 결과 ➡️ Address{value='부산'}
     }
 }
