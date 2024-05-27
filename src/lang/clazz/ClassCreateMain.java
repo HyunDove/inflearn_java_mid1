@@ -10,6 +10,7 @@ public class ClassCreateMain {
         Hello hello = (Hello) helloClass.getDeclaredConstructor().newInstance();
         String result = hello.hello();
         System.out.println("result = " + result); // hello!
+
         
     }
 }
