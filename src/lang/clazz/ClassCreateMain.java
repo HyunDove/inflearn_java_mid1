@@ -11,6 +11,5 @@ public class ClassCreateMain {
         String result = hello.hello();
         System.out.println("result = " + result); // hello!
 
-        
     }
 }
