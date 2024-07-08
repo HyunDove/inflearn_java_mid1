@@ -7,7 +7,6 @@ public class ClassCreateMain {
         
         Class helloClass = Hello.class;
         // Class helloClass = Class.forName("lang.clazz.Hello");
-        
         Hello hello = (Hello) helloClass.getDeclaredConstructor().newInstance();
         String result = hello.hello();
         System.out.println("result = " + result); // hello!
