@@ -6,7 +6,6 @@ import java.lang.reflect.Method;
 public class ClassMetaMain {
 
     public static void main(String[] args) throws Exception {
-        
         // Class 조회
         Class clazz = String.class; // 1. 클래스에서 조회
         // Class clazz = new String().getClass(); // 2. 인스턴스에서 조회
